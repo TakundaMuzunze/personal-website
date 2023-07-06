@@ -25,6 +25,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+body p{
+    opacity: 75%;
+}
+
 section{
     min-height: 100vh;
 }
@@ -104,11 +108,6 @@ nav{
     padding-bottom: 60px;
 }
 
-.heading-text p,
-.about-text p{
-    opacity: 75%;
-}
-
 .about-content{
     display: flex;
     justify-content: space-evenly;
@@ -125,6 +124,11 @@ nav{
 
 .about-text p{
     font-size: 18px;
+}
+
+.skills li{
+    opacity: 75%;
+    list-style-type: square;
 }
 
 .hyperlink{
