@@ -2,15 +2,22 @@
 --text: #f8f7fd;
 --background: #05030d;
 --primary: #27166a;
---secondary: #130b32;
---accent: #2e1a7f; */
+--secondary: #150c37;
+--accent: #2e1a7f; 
+#0C0A15*/
 
 /* LIGHT MODE
 --text: #05030d;
 --background: #f8f7fd;
 --primary: #27166a;
 --secondary: #dcd5f6;
---accent: #2e1a7f; */
+--accent: #2e1a7f; 
+
+--text: #eff8fa;
+--background: #000000;
+--primary: #b0dce8;
+--secondary: #0b2128;
+--accent: #c4e5ee;*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
@@ -20,12 +27,13 @@ body{
     height: 100;
 
     scroll-behavior: smooth;
-    background-color: #05030d;
-    color: #f8f7fd;
+    background-color: #000000;
+    color: #eff8fa;
     font-family: 'Montserrat', sans-serif;
 }
 
-body p{
+body p,
+main li{
     opacity: 75%;
 }
 
@@ -94,13 +102,13 @@ nav{
 }
 
 .hero-btn{
-    background-color: #27166a;
-    color: #f8f7fd;
+    background-color: #b0dce8;
+    color: #0C0A15;
     font-size: 18px;
 }
 
 .hero-btn:hover{
-    background-color: #361d97;
+    box-shadow: 2px 2px 2px 2px #919191 ;
 }
 
 .heading-text{
@@ -132,8 +140,40 @@ nav{
 }
 
 .hyperlink{
-    border: 2px solid #27166a;
-    color: #27166a;
+    border: 2px solid #b0dce8;
+    color: #b0dce8;
     background-color: transparent;
     padding: 12px 24px;
+}
+
+.experience-grid{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.job-desc{
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #0b2128;
+}
+
+.job-desc h3{
+    color: #c4e5ee;
+}
+
+
+.job-desc h6{
+    opacity: 75%;
+}
+
+.active{
+    color: #c4e5ee;
+    text-decoration: underline;
+}
+
+.duties li{
+    margin: 12px 0;
+    font-size: 14px;
 }
