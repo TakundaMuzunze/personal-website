@@ -103,7 +103,7 @@ nav{
 
 .hero-btn{
     background-color: #b0dce8;
-    color: #0C0A15;
+    color: #121216;
     font-size: 18px;
 }
 
@@ -168,9 +168,16 @@ nav{
     opacity: 75%;
 }
 
-.active{
+.exp-tabs{
+    padding: 12px 24px;
+    font-size: 16px;
     color: #c4e5ee;
-    text-decoration: underline;
+    background-color: transparent;
+}
+
+.exp-tabs.active{
+    color: #121216;
+    background-color: #c4e5ee;
 }
 
 .duties li{
