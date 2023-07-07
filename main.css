@@ -90,6 +90,10 @@ nav{
     align-items: center;
 }
 
+.intro{
+    max-width: 500px;
+}
+
 .intro h1{
     font-size: 36px;
 }
@@ -123,7 +127,7 @@ nav{
 }
 
 .about-content img{
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .about-text{
@@ -178,6 +182,7 @@ nav{
 .exp-tabs.active{
     color: #121216;
     background-color: #c4e5ee;
+    font-weight: bolder;
 }
 
 .duties li{
