@@ -189,3 +189,23 @@ nav{
     margin: 12px 0;
     font-size: 14px;
 }
+
+.card-grid{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+}
+
+.project-desc{
+    padding: 10px 20px;
+    border-radius: 10px;
+    height: auto;
+    max-width: 450px;
+    background-color: #0b2128;
+}
