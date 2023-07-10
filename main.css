@@ -171,6 +171,7 @@ nav{
 
 .hyperlink{
     border: 2px solid #b0dce8;
+    border-radius: 10px;
     color: #b0dce8;
     background-color: transparent;
     padding: 12px 24px;
