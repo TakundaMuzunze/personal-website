@@ -164,9 +164,17 @@ nav{
     font-size: 18px;
 }
 
-.skills li{
-    opacity: 75%;
-    list-style-type: square;
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.2rem; /* Adjust the gap between grid items as needed */
+    margin-bottom: 3rem; /* Add margin to the bottom of the list */
+}
+  
+.skills li {
+    opacity: 0.75;
+    list-style-type: circle;
+    margin-right: 0.2rem;
 }
 
 .hyperlink{
