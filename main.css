@@ -284,3 +284,19 @@ form{
 #message{
     height: 200px;
 }
+
+::placeholder{
+    font-size: 16px;
+}
+
+::placeholder:focus{
+    border: solid 10px red;
+}
+
+.form-button{
+    background-color: #b0dce8;
+}
+
+.form-button:hover{
+    box-shadow: 2px 2px 2px 2px #b6e3f0;
+}
