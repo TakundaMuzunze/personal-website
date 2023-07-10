@@ -224,6 +224,12 @@ nav{
     background-color: #0b2128;
 }
 
+.project-technologies{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
 .project-links i{
     font-size: 32px;
     color: #c4e5ee;
