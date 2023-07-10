@@ -202,10 +202,25 @@ nav{
     justify-content: center;
 }
 
+.project-info h4{
+    color: #c4e5ee;
+    font-weight: 300;
+}
+
+.project-info{
+    align-self: center;
+}
+
 .project-desc{
     padding: 10px 20px;
     border-radius: 10px;
     height: auto;
     max-width: 450px;
     background-color: #0b2128;
+}
+
+.project-links i{
+    font-size: 32px;
+    color: #c4e5ee;
+    margin: 20px;
 }
