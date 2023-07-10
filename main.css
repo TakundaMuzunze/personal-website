@@ -331,6 +331,16 @@ form{
     height: 200px;
 }
 
+.form-message p{
+    color: white;
+    font-weight: bolder;
+}
+
+.fa-check{
+    color: green;
+    margin-left: 5px;
+}
+
 ::placeholder{
     color:#8892b0;
     font-size: 16px;
