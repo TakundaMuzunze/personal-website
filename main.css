@@ -235,16 +235,22 @@ nav{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 40px;
+    gap: 60px;
 }
 
 .project{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.project-2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
 }
 
 .mockup-image img{
-    width: 700px;
+    width: 600px;
 }
 
 .project-info h4{
@@ -273,7 +279,18 @@ nav{
 .project-links i{
     font-size: 32px;
     color: #c4e5ee;
-    margin: 10px;
+    margin: 15px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.cta-button{
+    padding: 14px 28px;
+    color: white;
+    background-color: #0b2128;
 }
 
 .contact-area{
