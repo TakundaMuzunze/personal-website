@@ -302,6 +302,10 @@ form{
     box-shadow: 2px 2px 2px 2px #b6e3f0;
 }
 
+footer .container{
+    padding: 10px;
+}
+
 footer{
     text-align: center;
 }
