@@ -117,9 +117,15 @@ nav{
 .intro h1{
     font-size: 36px;
 }
+
+.intro h1:nth-child(3){
+    color: #8892b0;
+}
+
 .intro p{
     font-size: 20px;
 }
+
 .intro p:first-child{
     color: #c4e5ee;
 }
@@ -165,8 +171,8 @@ nav{
 .skills {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0.2rem; /* Adjust the gap between grid items as needed */
-    margin-bottom: 3rem; /* Add margin to the bottom of the list */
+    gap: 0.2rem; 
+    margin-bottom: 3rem;
 }
   
 .skills li {
