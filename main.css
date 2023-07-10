@@ -111,12 +111,13 @@ nav{
 
 .hero-btn{
     background-color: #b0dce8;
+    box-shadow: 2px 2px 2px 2px #b6e3f0;
     color: #121216;
     font-size: 18px;
 }
 
 .hero-btn:hover{
-    box-shadow: 2px 2px 2px 2px #919191 ;
+    box-shadow: 3px 3px 3px 4px #a0c9d4;
 }
 
 .heading-text{
