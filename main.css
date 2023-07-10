@@ -269,7 +269,23 @@ nav{
 .project-links i{
     font-size: 32px;
     color: #c4e5ee;
-    margin: 20px;
+    margin: 10px;
+}
+
+.contact-area{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-details{
+    max-width: 400px;
+    align-self: flex-start;
+}
+
+.detail-heading{
+    font-weight: bolder;
+    color: #c4e5ee;
 }
 
 form{
@@ -301,11 +317,13 @@ form{
 }
 
 .form-button{
+    padding: 12px 24px;
     background-color: #b0dce8;
+    align-self: flex-start;
 }
 
 .form-button:hover{
-    box-shadow: 2px 2px 2px 2px #b6e3f0;
+    box-shadow: 1px 1px 2px 2px #b6e3f0;
 }
 
 footer .container{
