@@ -181,11 +181,10 @@ nav{
 }
 
 .hyperlink{
-    border: 2px solid #b0dce8;
     border-radius: 10px;
-    color: #b0dce8;
-    background-color: transparent;
-    padding: 12px 24px;
+    color: white;
+    background-color: #0b2128;
+    padding: 14px 28px;
 }
 
 .experience-grid{
