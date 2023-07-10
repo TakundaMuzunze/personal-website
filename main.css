@@ -253,7 +253,7 @@ nav{
 }
 
 .project-info{
-    align-self: center;
+    align-self: flex-start;
 }
 
 .project-desc{
