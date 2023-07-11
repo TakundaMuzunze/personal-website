@@ -12,3 +12,7 @@ const formValidation = () => {
         submissionMessage.classList.add('form-message-shown');
     }
 };
+
+submitButton.addEventListener(click, function() {
+    formValidation();
+});
