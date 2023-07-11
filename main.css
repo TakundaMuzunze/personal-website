@@ -329,6 +329,9 @@ form{
 #message{
     height: 200px;
 }
+.form-message{
+    display: none;
+}
 
 .form-message p{
     color: white;
