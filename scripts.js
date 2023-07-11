@@ -18,3 +18,10 @@ const formValidation = (event) => {
 submitButton.addEventListener('click', function(event) {
     formValidation(event);
 });
+
+const toggleButton = document.getElementById('toggle-menu');
+const navBar = document.getElementById('navbar');
+
+// toggleButton.addEventListener('click', function () {
+
+// });
