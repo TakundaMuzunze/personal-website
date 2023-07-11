@@ -4,7 +4,8 @@ const nameInput = document.getElementById('fullname');
 const messageInput = document.getElementById('message');
 const submissionMessage = document.getElementById('displayed-message');
 
-const formValidation = () => {
+const formValidation = (event) => {
+    event.preventDefault();
     if (emailInput.value === "" && nameInput.value === "" && messageInput.value === "") {
         alert('Please fill out your details in the form correctly');
     }
@@ -14,6 +15,6 @@ const formValidation = () => {
     }
 };
 
-submitButton.addEventListener('click', function() {
-    formValidation();
+submitButton.addEventListener('click', function(event) {
+    formValidation(event);
 });
