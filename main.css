@@ -58,6 +58,14 @@ button{
     padding: 40px;
 }
 
+.hamburger-menu{
+    display: none;
+}
+
+.hamburger-menu i{
+    font-size: 28px;
+}
+
 nav{
     padding: 20px;
     display: flex;
