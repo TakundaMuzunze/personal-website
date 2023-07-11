@@ -80,6 +80,10 @@ nav{
     align-items: center;
 }
 
+.active-navbar{
+    display: block;
+}
+
 .navigation-bar li{
     list-style-type: none;
     margin: 0 12px;
