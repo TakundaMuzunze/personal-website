@@ -82,6 +82,7 @@ nav{
 
 .active-navbar{
     display: block;
+
 }
 
 .navigation-bar li{
@@ -397,5 +398,13 @@ footer{
         position: absolute;
         top: 40px;
         right: 20px;
+    }
+
+    .active-navbar{
+        display: block;
+    }
+
+    .navigation-bar li{
+        margin: 15px auto;
     }
 }
