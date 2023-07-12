@@ -20,8 +20,8 @@ submitButton.addEventListener('click', function(event) {
 });
 
 const toggleButton = document.getElementById('toggle-menu');
-const navBar = document.getElementById('navbar');
+let navBar = document.getElementById('navbar');
 
-// toggleButton.addEventListener('click', function () {
-
-// });
+toggleButton.addEventListener('click', function() {
+    navBar.classList.toggle('active-navbar');
+});
