@@ -1,19 +1,4 @@
-/* DARK MODE
---text: #f8f7fd;
---background: #05030d;
---primary: #27166a;
---secondary: #150c37;
---accent: #2e1a7f; 
-#0C0A15*/
-
-/* LIGHT MODE
---text: #05030d;
---background: #f8f7fd;
---primary: #27166a;
---secondary: #dcd5f6;
---accent: #2e1a7f; 
-
---text: #eff8fa;
+/*--text: #eff8fa;
 --background: #000000;
 --primary: #b0dce8;
 --secondary: #0b2128;
@@ -153,6 +138,7 @@ nav{
     box-shadow: 2px 2px 2px 2px #b6e3f0;
     color: #121216;
     font-size: 18px;
+    font-weight: 600;
 }
 
 .hero-btn:hover{
@@ -370,6 +356,7 @@ form{
 
 .form-button{
     padding: 12px 24px;
+    color: #121216;
     background-color: #b0dce8;
     align-self: flex-start;
 }
@@ -406,5 +393,85 @@ footer{
 
     .navigation-bar li{
         margin: 15px auto;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 479px){
+    body h1{
+        font-size: 24px;
+    }
+
+    body p{
+        font-size: 16px;
+    }
+
+    .container{
+        padding: 20px;
+    }
+
+    button{
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+
+    .social-media-sticky{
+        display: none;
+    }
+
+    .hero-content{
+        padding: 20px;
+    }
+
+    .hero-image img{
+        display: none;
+    }
+
+    .about-content{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-content img{
+        width: 320px;
+        height: 100%;
+    }
+
+    .company{
+        display: none;
+    }
+
+    .card-grid{
+        gap: 60px;
+    }
+
+    .project,
+    .project-2{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .job-desc{
+        max-width: 400px;
+    }
+    .mockup-image img{
+        width: 350px;
+        height: 100%;
+    }
+
+    .job-desc{
+        max-width: 300px;
+    }
+
+    .contact-area{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .input-field{
+        width: 300px;
+    }
+
+    .form-button{
+        align-self: center;
     }
 }
