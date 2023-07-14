@@ -382,7 +382,7 @@ footer{
 
 /*Media Queries*/
 
-@media (min-width: 320px) and (max-width: 1023px){
+@media (min-width: 320px) and (max-width: 768px){
     .navigation-bar {
         position: absolute;
         top: 70px; /* Adjust this value as needed */
@@ -414,6 +414,30 @@ footer{
         margin: 15px 0;
        padding: 2px;
     }
+
+    .hero-content{
+        padding: 20px;
+    }
+
+    .hero-image img{
+        display: none;
+    }
+
+    .social-media-sticky{
+        display: none;
+    }
+
+    .about-content{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-content img{
+        width: 320px;
+        height: 100%;
+    }
+
+    
 } 
 
 @media (min-width: 320px) and (max-width: 479px){
@@ -434,28 +458,6 @@ footer{
         font-size: 16px;
     }
 
-    .social-media-sticky{
-        display: none;
-    }
-
-    .hero-content{
-        padding: 20px;
-    }
-
-    .hero-image img{
-        display: none;
-    }
-
-    .about-content{
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .about-content img{
-        width: 320px;
-        height: 100%;
-    }
-
     .company{
         display: none;
     }
@@ -464,15 +466,33 @@ footer{
         gap: 60px;
     }
 
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+    .intro{
+        max-width: 700px;
+    }
+
     .project,
     .project-2{
+        align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .project-info{
+        align-self: center;
+    }
+
+    .project-info h4,
+    .project-info h2{
+        text-align: center;
     }
 
     .job-desc{
         max-width: 400px;
     }
+
     .mockup-image img{
         width: 350px;
         height: 100%;
@@ -480,6 +500,11 @@ footer{
 
     .job-desc{
         max-width: 300px;
+    }
+
+    .contact-details{
+        text-align: center;
+        align-self: center;
     }
 
     .contact-area{
