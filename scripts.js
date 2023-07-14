@@ -21,7 +21,9 @@ submitButton.addEventListener('click', function(event) {
 
 const toggleButton = document.getElementById('toggle-menu');
 let navBar = document.getElementById('navbar');
+const bodyContainer = document.getElementById('blur-container');
 
 toggleButton.addEventListener('click', function() {
     navBar.classList.toggle('active-navbar');
+    bodyContainer.classList.toggle('blur');
 });
