@@ -22,8 +22,16 @@ submitButton.addEventListener('click', function(event) {
 const toggleButton = document.getElementById('toggle-menu');
 let navBar = document.getElementById('navbar');
 const bodyContainer = document.getElementById('blur-container');
+const navLinks = document.querySelectorAll('.navigation-bar li a');
 
 toggleButton.addEventListener('click', function() {
     navBar.classList.toggle('active-navbar');
     bodyContainer.classList.toggle('blur');
+});
+
+navLinks.forEach(link => {
+    link.addEventListener('click', function() {
+        navBar.classList.remove('active-navbar');
+        bodyContainer.classList.remove('blur');
+    });
 });
