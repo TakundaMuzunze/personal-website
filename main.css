@@ -376,23 +376,33 @@ footer{
 /*Media Queries*/
 
 @media (min-width: 320px) and (max-width: 1023px){
-    .navigation-bar{
+    .navigation-bar {
+        position: absolute;
+        top: 70px; /* Adjust this value as needed */
+        right: 20px;
         display: none;
+        background-color: white;
+        color: #121216 ;
+        min-width: 100vw;
+        height: 100vh;
     }
 
-    .hamburger-menu{
-        display: block;
+    .hamburger-menu {
         position: absolute;
+        display: block;
         top: 40px;
         right: 20px;
+        cursor: pointer; 
     }
 
-    .active-navbar{
+    .active-navbar {
         display: block;
     }
 
-    .navigation-bar li{
-        margin: 15px auto;
+    .navigation-bar li {
+        display: block;
+        text-align: center;
+        margin: 50px auto;
     }
 }
 
