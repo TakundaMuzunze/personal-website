@@ -2,6 +2,9 @@
 
 Welcome to my personal website repository! This website serves as an online portfolio and showcase of my work, skills, and experiences.
 
+
+![Portfolio Website Preview](/preview.png)
+
 ## 📋Overview 
 
 My personal website is designed to provide visitors with an overview of who I am, my background, and the projects I have worked on. It showcases my skills, achievements, and areas of expertise, allowing potential employers, clients, or collaborators to get to know me better.
