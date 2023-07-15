@@ -27,7 +27,7 @@ My personal website is designed to provide visitors with an overview of who I am
 
 ## 💻Live Demo 
 
-You can view my personal website live at [your-website-url.com](https://your-website-url.com).
+You can view my personal website live at [your-website-url.com](https://takmuzunze.netlify.app).
 
 ## ⚙️Installation 
 
