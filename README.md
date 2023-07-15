@@ -8,22 +8,19 @@ My personal website is designed to provide visitors with an overview of who I am
 
 ## Key Features 🚀
 
-- **Responsive Design** 🌐: The website is designed to adapt to different screen sizes, ensuring a seamless browsing experience across devices.
-- **Portfolio Showcase** 🎨: The website features a dedicated section to showcase my projects, including descriptions, screenshots, and links to live demos or repositories.
-- **About Me** 👋: Provides an overview of my background, skills, interests, and professional experiences.
-- **Contact Information** 📧: Includes my contact details, such as email address and social media links, allowing visitors to easily get in touch with me.
-- **Resume/CV** 📄: Offers a downloadable version of my resume or CV for potential employers or collaborators.
+- **🌐 Responsive Design**: The website is designed to adapt to different screen sizes, ensuring a seamless browsing experience across devices.
+- **🎨 Portfolio Showcase**: The website features a dedicated section to showcase my projects, including descriptions, screenshots, and links to live demos or repositories.
+- **👋 About Me**: Provides an overview of my background, skills, interests, and professional experiences.
+- **📧 Contact Information**: Includes my contact details, such as email address and social media links, allowing visitors to easily get in touch with me.
+- **📄 Resume/CV**: Offers a downloadable version of my resume or CV for potential employers or collaborators.
 
 ## Technologies Used 🛠️
 
 - HTML5
 - CSS3
 - JavaScript
-- [Additional technologies or frameworks used in your personal website]
-
-## Preview 🖼️
-
-[Include preview images or screenshots of your personal website]
+- Git
+- Chrome Dev Tools
 
 ## Live Demo 💻
 
@@ -37,5 +34,4 @@ You can view my personal website live at [your-website-url.com](https://your-web
 
 ## Acknowledgments 💡
 
-I would like to express my gratitude to all the resources, tutorials, and inspirations that contributed to the development of my personal website. Special thanks to the supportive developer community for their continuous support and feedback.
-
+I would like to express my gratitude to all the resources, tutorials, and inspirations that contributed to the development of my personal website.
