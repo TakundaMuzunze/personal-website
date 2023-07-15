@@ -498,8 +498,9 @@ footer{
         height: 100%;
     }
 
-    .job-desc{
-        max-width: 300px;
+    .project-links{
+        display: flex;
+        justify-content: center;
     }
 
     .contact-details{
