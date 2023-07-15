@@ -482,6 +482,11 @@ footer{
         text-align: center;
     }
 
+    .project-links{
+        display: flex;
+        justify-content: center;
+    }
+
     .job-desc{
         max-width: 400px;
     }
