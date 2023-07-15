@@ -521,3 +521,75 @@ footer{
         align-self: center;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1023px){
+    .hero-content{
+        padding: 20px;
+    }
+
+    .hero-image img{
+        display: none;
+    }
+    
+    .social-media-sticky{
+        display: none;
+    }
+
+    .intro{
+        max-width: 800px;
+    }
+    
+    .about-content{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project,
+    .project-2{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .project-info{
+        align-self: center;
+    }
+
+    .project-info h4,
+    .project-info h2{
+        text-align: center;
+    }
+
+    .job-desc{
+        max-width: 400px;
+    }
+
+    .mockup-image img{
+        width: 350px;
+        height: 100%;
+    }
+
+    .project-links{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-details{
+        max-width: 500px;
+        text-align: center;
+        align-self: center;
+    }
+
+    .contact-area{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .input-field{
+        width: 300px;
+    }
+
+    .form-button{
+        align-self: center;
+    }
+}
