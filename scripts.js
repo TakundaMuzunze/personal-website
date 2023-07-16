@@ -5,7 +5,7 @@ const messageInput = document.getElementById('message');
 const submissionMessage = document.getElementById('displayed-message');
 
 const formValidation = (event) => {
-    event.preventDefault();
+    // event.preventDefault();
     if (emailInput.value === "" && nameInput.value === "" && messageInput.value === "") {
         alert('Please fill out your details in the form correctly');
     }
