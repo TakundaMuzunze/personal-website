@@ -7,14 +7,30 @@ const submissionMessage = document.getElementById('displayed-message');
 const formValidation = (event) => {
     event.preventDefault();
 
-    if (emailInput.value === "" && nameInput.value === "" && messageInput.value === "") {
-        alert('Please fill out your details in the form correctly');
+     if (messageInput.value === "" && nameInput.value === "" && emailInput.value === ""){
+        alert('Please fill out the form with your details');
         return false; 
-    } else {
-        submissionMessage.classList.add('form-message-shown');
-        submitButton.style.display= "none";
+    }
+    
+    if (emailInput.value === "" || !emailInput.value.includes('@')) {
+        alert('Please enter a valid email address');
+        return false; 
     }
 
+    if (nameInput.value === "") {
+        alert('Please enter your name');
+        return false; 
+    }
+
+    if (messageInput.value === "") {
+        alert('Please enter your message');
+        return false; 
+    }
+
+   
+
+    submissionMessage.classList.add('form-message-shown');
+    submitButton.style.display= "none";
     return true;
 };
 
