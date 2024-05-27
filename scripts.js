@@ -25,9 +25,7 @@ const formValidation = (event) => {
     if (messageInput.value === "") {
         alert('Please enter your message');
         return false; 
-    }
-
-   
+    } 
 
     submissionMessage.classList.add('form-message-shown');
     submitButton.style.display= "none";
@@ -38,6 +36,7 @@ submitButton.addEventListener('click', function(event) {
     formValidation(event);
 });
 
+/*Navigation Bar Menu*/
 const toggleButton = document.getElementById('toggle-menu');
 let navBar = document.getElementById('navbar');
 const bodyContainer = document.getElementById('blur-container');
